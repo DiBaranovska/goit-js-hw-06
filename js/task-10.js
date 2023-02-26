@@ -27,4 +27,7 @@ buttonCreateEl.addEventListener('click', createBoxes);
 
 buttonDestroyEl.addEventListener('click', event => {
   newConteinersEls.innerHTML = '';
+  conteinerList = [];
+  height = 20;
+  width = 20;
 });

@@ -16,5 +16,3 @@ buttoIncrementEl.addEventListener('click', () => {
   resultEl.textContent = counterValue;
   return;
 });
-
-console.log(counterValue);
